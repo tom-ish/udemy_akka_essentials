@@ -172,7 +172,7 @@ object ActorCapabilities extends App {
   }
 
   val account = system.actorOf(Props[BankAccount], "BankAccount")
-  val person = system.actorOf(Props[LiveTheLife], "billionaire")
+  val person = system.actorOf(Props[Person], "billionaire")
 
   person ! LiveTheLife(account)
 }

@@ -4,7 +4,7 @@
 		module="udemy-akka-essentials$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190721221038"
+		publication="20190722153816"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
